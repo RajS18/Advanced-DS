@@ -22,7 +22,7 @@ int main() {
     unordered_map<string, vector<int>> invertedIndex;
 
     // read in documents from file
-    ifstream inFile("documents.txt");
+    ifstream inFile("documents.txt");  // you need to supply document.txt
     string line;
     int docID = 0;
     while (getline(inFile, line)) {
