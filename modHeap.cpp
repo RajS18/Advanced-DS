@@ -549,7 +549,7 @@ public:
         return heap.size();
     }
 
-    // returns min Element / top of min Heap and deletes it. This is an interface fuction which internally uses removeMin utility and Bubbledown fuctions.
+    // returns min Element top of min Heap and deletes it. This is an interface fuction which internally uses removeMin utility and Bubbledown fuctions.
     HeapNode minElement(){
         if (heap.empty()) {
             HeapNode x(-1,-1,-1);
