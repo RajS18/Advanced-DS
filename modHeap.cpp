@@ -439,9 +439,9 @@ public:
     fixInsert(node);
   }
 
-  NodePtr getRoot(){
-    return this->root;
-  }
+  // NodePtr getRoot(){
+  //   return this->root;
+  // }
 
   // delete the node from the tree
   void deleteNode(int data) {
