@@ -93,3 +93,7 @@ public:
         return result;
     }
 };
+int main(){
+    cout<<"Compiled";
+    return 0;
+}
